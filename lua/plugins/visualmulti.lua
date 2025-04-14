@@ -1,1 +1,1 @@
-return { "mg979/vim-visual-multi" }
+../../../../dotfiles/.config/nvim/lua/plugins/visualmulti.lua

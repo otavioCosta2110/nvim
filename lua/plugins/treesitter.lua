@@ -1,4 +1,1 @@
-return {
-  'nvim-treesitter/nvim-treesitter',
-  build = ':TSUpdate'
-}
+../../../../dotfiles/.config/nvim/lua/plugins/treesitter.lua

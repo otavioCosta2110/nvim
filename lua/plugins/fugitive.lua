@@ -1,1 +1,1 @@
-return { 'tpope/vim-fugitive' }
+../../../../dotfiles/.config/nvim/lua/plugins/fugitive.lua
