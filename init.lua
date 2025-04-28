@@ -1,1 +1,4 @@
-../../dotfiles/.config/nvim/init.lua
+require("config.remap")
+require("config.lazy")
+require("config.set")
+
