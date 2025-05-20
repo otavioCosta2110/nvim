@@ -31,6 +31,6 @@ vks("v", "K", ":m '<-2<CR>gv=gv")
 
 vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
 
--- vim.keymap.set('n', '<leader>ca', vim.lsp.buf.code_action, opts)
--- vim.keymap.set('n', '<leader>ca', vim.lsp.buf.code_action, { desc = 'Code [A]ction' })
+vim.keymap.set('n', '<leader>ca', vim.lsp.buf.code_action, opts)
+vim.keymap.set('n', '<leader>vv', "<cmd>vsplit<CR>", opts)
 

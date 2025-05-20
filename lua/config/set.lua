@@ -1,10 +1,11 @@
 vim.cmd("highlight TelescopeBorder guibg=none")
--- vim.cmd("highlight Normal guibg=NONE ctermbg=NONE")
+vim.cmd("highlight Normal guibg=NONE ctermbg=NONE")
 vim.cmd("highlight LineNr guibg=none")
 vim.cmd("highlight TelescopePromptBorder guibg=none")
 vim.cmd("highlight TelescopePreviewBorder guibg=none")
 vim.cmd("highlight SignColumn guibg=none ")
 vim.cmd("highlight telescopeborder guibg=none")
+vim.cmd("highlight StatusLine guibg=none")
 vim.cmd("highlight pmenu guibg=#0a0a0a")
 vim.opt.signcolumn = "yes"
 vim.opt.termguicolors = true
@@ -31,4 +32,9 @@ vim.opt.guicursor = "n-v-c-i:block"
 
 vim.opt.undofile = true
 vim.opt.undodir = vim.fn.expand("~/.vim/undodir")
+
+vim.api.nvim_set_hl(0, 'Visual', {
+      bg = '#383115',  -- Example color (gruvbox-material's medium gray)
+      fg = nil,        -- Keep default foreground
+    })
 
