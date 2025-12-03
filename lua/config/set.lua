@@ -7,6 +7,8 @@ vim.cmd("highlight SignColumn guibg=none ")
 vim.cmd("highlight telescopeborder guibg=none")
 vim.cmd("highlight StatusLine guibg=none")
 vim.cmd("highlight pmenu guibg=#0a0a0a")
+vim.cmd("highlight MsgArea guibg=none")
+
 vim.opt.signcolumn = "yes"
 vim.opt.termguicolors = true
 vim.opt.number = true
@@ -37,4 +39,6 @@ vim.api.nvim_set_hl(0, 'Visual', {
       bg = '#383115',  -- Example color (gruvbox-material's medium gray)
       fg = nil,        -- Keep default foreground
     })
+
+    -- vim.cmd("colorscheme gruvbox_minimal")
 
